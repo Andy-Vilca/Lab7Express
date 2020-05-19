@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
       'usuario':datos,
       'tituloSeccion':'Desarrolo de Aplicaciones Web',
       'seccion':html
-    })
+    });
   });
 });
 
